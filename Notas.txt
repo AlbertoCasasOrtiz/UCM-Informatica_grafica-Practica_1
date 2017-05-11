@@ -1,0 +1,26 @@
+Números:
+ 1 - Quesito
+ 2 - Ficha
+ 3 - Montaña Rusa
+ 4 - Coche
+ 5 - Montaña Rusa con Coche
+ 
+Letras:
+ a, z, arr, abj, izq, der - Movimiento ejes.
+ g, h - Activar/Desactivar relleno de caras.
+ j, k - Mostrar/No mostrar normales.
+ n, m - Mostrar/No mostrar caras traseras.
+ q, w - Mover coche adelante o atras.
+ 
+La ficha está formada completa (Caras, vértices y normales) en una sola malla.
+
+La montaña Rusa está formada por caras triangulares.
+
+El coche está formado por un cuerpo hecho mediante extrusión y cuatro cilindros como ruedas.
+
+El coche se mueve a lo largo de la montaña rusa y "derrapa" en las curvas, el efecto se consigue
+haciendo que al girar, su parte trasera "Resbale" sobre el suelo. Tras derrapar vuelve a su posición
+y sigue su movimiento.
+
+He hecho que al inicio, se muestren en la consola el número de caras, normales y vértices de cada figura.
+
